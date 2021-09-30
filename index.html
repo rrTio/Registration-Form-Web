@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="assets/css/main.css"/>
+    </head>
+
+    <body>
+            <div class="containerCard">
+                <div class="card">
+                    <h3>SIGN UP</h3>
+                    <div class="container mt-3">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="text" id="fName" name="firstName" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="text" id="lName" name="lastName" placeholder="Last Name">
+                                </div>
+                            </div>
+<!--=======================================================================================================================-->
+                            <div class="row">
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="email" id="email" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="number" id="contactNumber" name="contactNumber" placeholder="Contact Number">
+                                </div>
+                            </div>
+<!--=======================================================================================================================-->
+                            <div class="row">
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="password" id="password" name="password" placeholder="Password">
+                                </div>
+                                <div class="col-md-6 col-12-mobile">
+                                    <input type="password" id="cPassword" name="cPassword" placeholder="Confirm Password">
+                                </div>
+                            </div>
+<!--=======================================================================================================================-->
+                            <div class="row">
+                                <div class="col-md-6 col-12-mobile">
+                                    <select class="input">
+                                        <option>ASIA</option>
+                                        <option>AFRICA</option>
+                                        <option>EUROPE</option>
+                                        <option>OCEANIA</option>
+                                        <option>NORTH AMERICA</option>
+                                        <option>SOUTH AMERICA</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 row-md-1">
+                                    <h5>SEX:</h5>
+                                </div>
+                                <div class="col-md-2 row-md-1">
+                                    <label><input type="radio" id="rMale" name="gender" value="Male">MALE</label>
+                                </div>
+                                <div class="col-md-2 row-md-1">
+                                    <label><input type="radio" id="rFemale" name="gender" value="Female">FEMALE</label>
+                                </div>
+                            </div>
+                            <center>
+                            <div class="col-md-6 col-12-mobile buttonRegister">
+                                <button type="submit" class="custom-btn btn-10">Register</button>
+                            </div>
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
